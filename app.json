@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "CricketLiveScore",
+    "slug": "CricketLiveScore",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/loading page (2).jpeg",
+    "scheme": "cricketlivescore",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/loading page (2).jpeg",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.atharvasawant0804.CricketLiveScore"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/loading page (1).jpeg",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "5171f98c-9a5f-4327-a584-73d4d8def8a6"
+      }
+    },
+    "owner": "satharva2004"
+  }
+}
