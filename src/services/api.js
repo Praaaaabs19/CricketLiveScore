@@ -13,7 +13,7 @@ import { publishMatchUpdate } from '../state/matchUpdateBus';
  * - **adds startTime (epoch ms) and startTimeISO** to transformed matches
  */
 
-const RAPIDAPI_KEY = process.env.RAPIDAPI_KEY || 'YOUR_RAPIDAPI_KEY_HERE';
+const RAPIDAPI_KEY = process.env.RAPIDAPI_KEY || '6455bfdd90msh83a8d2bd54d01fcp1dbca9jsn1aa70c2e9a6e';
 const CRICBUZZ_API_BASE = 'https://cricbuzz-cricket.p.rapidapi.com';
 
 const apiClient = axios.create({
