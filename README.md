@@ -114,9 +114,13 @@ Main application code is under **`src/`**:
 
 ## 4. Installation & running the app
 
-### 4.1 Install dependencies
+### 4.1 Extract the ZIP in downloads
+Expand-Archive -Path .\CricketLiveScore.zip -DestinationPath .\CricketLiveScore
 
-From the project root (`CricketLiveScore/CricketLiveScore`):
+### 4.2 Open the project folder on vs code
+cd .\CricketLiveScore
+
+### 4.3 Install dependencies and start Expo
 
 ```bash
 npm install
@@ -124,7 +128,7 @@ npm install
 bun install
 ```
 
-### 4.2 Start the Expo dev server
+### 4.4 Start the Expo dev server
 
 Using npx (recommended):
 
@@ -138,7 +142,7 @@ You’ve also been using Bun directly, which is equivalent to:
 bun expo start
 ```
 
-### 4.3 Open the app
+### 4.5 Open the app
 
 - **On a physical device**: install **Expo Go** (Android/iOS) and scan the QR code shown in your terminal.
 - **On an emulator/simulator**: press the shortcuts that Expo suggests (e.g. `a` for Android, `i` for iOS) or run `npm run android` / `npm run ios`.
