@@ -129,8 +129,7 @@ bun install
 Using npm (recommended):
 
 ```bash
-npm run start          # starts the Expo dev server
-npm expo start
+npx expo start
 ```
 
 You’ve also been using Bun directly, which is equivalent to:
