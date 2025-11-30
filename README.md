@@ -126,7 +126,7 @@ bun install
 
 ### 4.2 Start the Expo dev server
 
-Using npm (recommended):
+Using npx (recommended):
 
 ```bash
 npx expo start
