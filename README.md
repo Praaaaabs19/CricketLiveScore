@@ -103,7 +103,7 @@ Main application code is under **`src/`**:
 
 ## 3. Prerequisites
 
-- **Node.js** (LTS recommended: 18+) Download from the official site:(https://nodejs.org/dist/v24.11.1/node-v24.11.1-x64.msi)
+- **Node.js** (LTS recommended: 18+) Must Download from the official site:(https://nodejs.org/dist/v24.11.1/node-v24.11.1-x64.msi)
 - **npm** (bundled with Node) or **Bun** if you prefer
 - **Expo CLI** (installed automatically via `npx`)
 - A free **RapidAPI** account
