@@ -117,7 +117,7 @@ Main application code is under **`src/`**:
 ### 4.1 Extract the ZIP in downloads
 Expand-Archive -Path .\199879_Prabhakar Morajkar_CricketLiveScore.zip -DestinationPath .\199879_Prabhakar Morajkar_CricketLiveScore
 
-### 4.2 Open the project folder 
+### 4.2 Open the project folder on Visual Studio Code (VsCode)
 cd .\199879_Prabhakar Morajkar_CricketLiveScore
 
 ### 4.3 Install dependencies 
@@ -220,32 +220,9 @@ const firebaseConfig = {
 
 Then restart the app. Authentication screens (`LoginScreen`, `SignupScreen`) will now use your Firebase project.
 
----
 
-## 7. Step‑by‑step: from clone to live scores
 
-1. **Clone or download** this repository and open it in your editor.
-2. **Install dependencies**:
-   - `npm install` (or `bun install`).
-3. **Configure RapidAPI key**:
-   1. Get a key from RapidAPI → Cricbuzz Cricket API.
-   2. Open `src/services/api.js`.
-   3. Update `RAPIDAPI_KEY` using Option A or B from section 5.
-4. *(Optional)* **Configure Firebase**:
-   - Edit `src/services/firebase.js` if you want to use your own project.
-5. **Start the app**:
-   - `npm run start` (or `bun expo start`).
-6. **Launch on device/emulator** using Expo Go or the emulator shortcuts.
-7. **Sign up or log in** using the auth screens.
-8. Explore:
-   - **Home**: live/upcoming/recent matches.
-   - **Match Details**: toss, scores, overs, result and detailed scorecard.
-   - **Rankings**: ICC rankings by format and type.
-   - **News**: scrollable feed of the latest cricket stories.
-
----
-
-## 8. Troubleshooting
+## 7. Troubleshooting
 
 - **SafeAreaView deprecation warning**
   - Expo/React Native now prefers `react-native-safe-area-context`. This project already uses `SafeAreaProvider`; some legacy usage of `SafeAreaView` may still log warnings but does not break functionality.
@@ -264,7 +241,7 @@ Then restart the app. Authentication screens (`LoginScreen`, `SignupScreen`) wil
 
 ---
 
-## 9. Contributing / customizing
+## 8. Contributing / customizing
 
 - Modify UI and UX in `src/screens/`.
 - Extend the API wrapper in `src/services/api.js` for additional endpoints.
