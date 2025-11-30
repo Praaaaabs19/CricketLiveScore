@@ -112,40 +112,43 @@ Main application code is under **`src/`**:
 
 ---
 
-## 4. Installation & running the app
+## 4. Installation & Running the App
 
-### 4.1 Extract the ZIP in downloads
-Expand-Archive -Path .\199879_Prabhakar Morajkar_CricketLiveScore.zip -DestinationPath .\199879_Prabhakar Morajkar_CricketLiveScore
+### 4.1 Extract the ZIP file
+After downloading, extract the ZIP file in your Downloads folder:
+```powershell
+Expand-Archive -Path ".\199879_Prabhakar Morajkar_CricketLiveScore.zip" -DestinationPath ".\199879_Prabhakar Morajkar_CricketLiveScore"
+```
 
-### 4.2 Open the project folder on Visual Studio Code (VsCode)
-cd .\199879_Prabhakar Morajkar_CricketLiveScore
+### 4.2 Open the project folder in Visual Studio Code
+```powershell
+cd ".\199879_Prabhakar Morajkar_CricketLiveScore"
+code .
+```
 
-### 4.3 Install dependencies 
-
+### 4.3 Install dependencies
 ```bash
 npm install
-# or, if you use bun
+# or, if you use Bun
 bun install
 ```
 
-### 4.4 Start the Expo dev server
+### 4.4 Start the Expo development server
 
-Using npx (recommended):
-
+**Using npm (recommended):**
 ```bash
 npx expo start
 ```
 
-You’ve also been using Bun directly, which is equivalent to:
-
+**Or using Bun:**
 ```bash
 bun expo start
 ```
 
 ### 4.5 Open the app
 
-- **On a physical device**: install **Expo Go** (Android/iOS) and scan the QR code shown in your terminal.
-- **On an emulator/simulator**: press the shortcuts that Expo suggests (e.g. `a` for Android, `i` for iOS) or run `npm run android` / `npm run ios`.
+- **On a physical device**: Install **Expo Go** from the App Store (iOS) or Play Store (Android), then scan the QR code displayed in your terminal
+- **On an emulator/simulator**: Press `a` for Android or `i` for iOS in the terminal, or run `npm run android` / `npm run ios`
 
 ---
 
