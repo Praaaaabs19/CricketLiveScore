@@ -115,9 +115,9 @@ Main application code is under **`src/`**:
 ## 4. Installation & running the app
 
 ### 4.1 Extract the ZIP in downloads
-Expand-Archive -Path .\CricketLiveScore.zip -DestinationPath .\CricketLiveScore
+Expand-Archive -Path .\199879_Prabhakar Morajkar_CricketLiveScore.zip -DestinationPath .\199879_Prabhakar Morajkar_CricketLiveScore
 
-### 4.2 Open the project folder on vs code
+### 4.2 Open the project folder 
 cd .\CricketLiveScore
 
 ### 4.3 Install dependencies 
