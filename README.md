@@ -118,7 +118,7 @@ Main application code is under **`src/`**:
 Expand-Archive -Path .\199879_Prabhakar Morajkar_CricketLiveScore.zip -DestinationPath .\199879_Prabhakar Morajkar_CricketLiveScore
 
 ### 4.2 Open the project folder 
-cd .\CricketLiveScore
+cd .\199879_Prabhakar Morajkar_CricketLiveScore
 
 ### 4.3 Install dependencies 
 
