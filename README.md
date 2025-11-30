@@ -190,7 +190,7 @@ The app talks to Cricbuzz through RapidAPI. To use your own quota, set **your ow
 1. Keep the line in `api.js` as:
 
    ```js
-   const RAPIDAPI_KEY = process.env.RAPIDAPI_KEY || '016232bd2emshb362ea6552e6df3p1ab79fjsn9da7abaa902a';
+   const RAPIDAPI_KEY = process.env.RAPIDAPI_KEY || '0a76dfe559msh6e1aeb6caf58f07p1c1617jsnfd38f7bfcb3b';
    ```
 
 2. The code will read `process.env.RAPIDAPI_KEY`; if it’s missing, it falls back to the string literal.
