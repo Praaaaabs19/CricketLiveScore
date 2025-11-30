@@ -120,7 +120,7 @@ Expand-Archive -Path .\CricketLiveScore.zip -DestinationPath .\CricketLiveScore
 ### 4.2 Open the project folder on vs code
 cd .\CricketLiveScore
 
-### 4.3 Install dependencies and start Expo
+### 4.3 Install dependencies 
 
 ```bash
 npm install
